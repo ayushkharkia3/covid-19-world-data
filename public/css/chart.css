@@ -22,6 +22,15 @@ html {
     -o-border-radius: 10px;
 }
 
+h1 {
+    color: rgb(216, 16, 83);
+    padding-top: 30px;
+    display: block;
+    font-size: 200%;
+    font-weight: 600;
+    text-align: center;
+}
+
 .row {
     width: 100%;
 }
@@ -160,4 +169,12 @@ html {
 .back a:hover {
     color: oldlace;
     background-color: rgb(115, 226, 3);
+}
+
+.footer {
+    font-size: 80%;
+    text-align: right;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
 }
