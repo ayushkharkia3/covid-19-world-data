@@ -144,7 +144,8 @@ h1 {
 }
 
 .back a {
-    width: 132px;
+    letter-spacing: 1px;
+    width: 120px;
     margin: 0 auto;
     padding: 12px;
     border-radius: 5px;
