@@ -172,10 +172,37 @@ h1 {
     background-color: rgb(115, 226, 3);
 }
 
-.footer {
-    font-size: 80%;
+.taken {
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    font-size: 50%;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.foot {
+    width: 100%;
+    font-weight: 400;
     text-align: right;
+    font-size: 50%;
     margin-right: 8px;
     margin-bottom: 5px;
     padding-bottom: 10px;
+}
+
+.foot a:link,
+.foot a:active,
+.foot a:visited {
+    text-decoration: none;
+    font-size: 110%;
+    color: black;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+@media only screen and (max-width: 520px) {
+    .foot {
+        text-align: left;
+    }
 }

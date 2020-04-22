@@ -60,7 +60,8 @@ app.post('/', (req, res, next) => {
                 recovered: stringToNumber(data.total_recovered),
                 active: parseInt(active),
                 total: stringToNumber(data.cases),
-                country: data.country_name
+                country: data.country_name,
+                taken: response.data.statistic_taken_at
             })
         })
         .catch((error) => {

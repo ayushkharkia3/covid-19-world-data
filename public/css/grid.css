@@ -71,6 +71,9 @@
     .span-1-of-2 {
         width: 100%;
     }
+    .foot {
+        text-align: left;
+    }
     .col {
         margin: 0;
     }
