@@ -119,3 +119,18 @@ footer p a:visited {
 select:focus {
     outline: none;
 }
+
+@media only screen and (max-width: 960px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 16px;
+    }
+    .col {
+        margin: 0;
+    }
+}
