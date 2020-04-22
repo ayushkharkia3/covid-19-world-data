@@ -197,8 +197,7 @@ h1 {
 .foot a:visited {
     text-decoration: none;
     font-size: 110%;
-    color: black;
-    border-bottom: 1px solid #b3b3b3;
+    color: rgb(0, 0, 100);
 }
 
 @media only screen and (max-width: 520px) {
