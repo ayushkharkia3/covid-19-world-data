@@ -6,7 +6,7 @@ html {
     padding: 0;
     box-sizing: border-box;
     word-spacing: 1px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: black;
     background-color: #fffcee;
 }
@@ -144,7 +144,7 @@ h1 {
 }
 
 .back a {
-    width: 120px;
+    width: 131px;
     margin: 0 auto;
     padding: 12px;
     border-radius: 5px;
