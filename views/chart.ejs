@@ -87,7 +87,11 @@
             <div class="col span-1-of-2">
                 <div class="total">
                     <div class="total-count">
-                        <%= total %>
+                        <%= total_display %>
+                    </div>
+                    <div class="new_total_count">
+                        <img src="/img/long-arrow-up.png" alt="increase" />
+                        <%= new_total_display %>
                     </div>
                     <div class="total-heading">Total cases in
                         <%= country %>
@@ -100,7 +104,7 @@
             <div class="col span-1-of-2">
                 <div class="active">
                     <div class="active-count">
-                        <%= active %>
+                        <%= active_display %>
                     </div>
                     <div class="active-heading">Active cases in
                         <%= country %>
@@ -115,7 +119,7 @@
             <div class="col span-1-of-2">
                 <div class="recovered">
                     <div class="recovered-count">
-                        <%= recovered %>
+                        <%= recovered_display %>
                     </div>
                     <div class="recovered-heading">Recovered cases in
                         <%= country %>
@@ -128,7 +132,11 @@
             <div class="col span-1-of-2">
                 <div class="deaths">
                     <div class="deaths-count">
-                        <%= death %>
+                        <%= death_display %>
+                    </div>
+                    <div class="new_death_count">
+                        <img src="/img/long-arrow-up.png" alt="increase" />
+                        <%= new_death_display %>
                     </div>
                     <div class="deaths-heading">Deaths in
                         <%= country %>

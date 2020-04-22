@@ -94,6 +94,25 @@ h1 {
     font-size: 130%;
 }
 
+.new_total_count,
+.new_death_count {
+    height: 18px;
+    color: #d16060;
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    font-weight: 500;
+    left: 2%;
+    font-size: 60%;
+    letter-spacing: 2px;
+}
+
+.new_total_count img,
+.new_death_count img {
+    height: 11px;
+    margin-bottom: -2px;
+}
+
 .total-heading:before,
 .active-heading:before,
 .recovered-heading:before,

@@ -54,13 +54,18 @@ app.post('/', (req, res, next) => {
         })
         .then((response) => {
             data = response.data.countries_stat.find((e) => (e.country_name).toUpperCase() == (req.body.country).toUpperCase())
-            active = stringToNumber(data.cases) - stringToNumber(data.deaths) - stringToNumber(data.total_recovered)
             res.render('chart', {
                 death: stringToNumber(data.deaths),
                 recovered: stringToNumber(data.total_recovered),
-                active: parseInt(active),
+                active: stringToNumber(data.active_cases),
                 total: stringToNumber(data.cases),
+                death_display: data.deaths,
+                recovered_display: data.total_recovered,
+                active_display: data.active_cases,
+                total_display: data.cases,
                 country: data.country_name,
+                new_total_display: data.new_cases,
+                new_death_display: data.new_deaths,
                 taken: response.data.statistic_taken_at
             })
         })
