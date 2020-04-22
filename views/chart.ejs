@@ -44,21 +44,32 @@
 
             // Set chart options
             var options = {
-                'legend': 'right',
+                'legend': {
+                    position: 'right',
+                    textStyle: {
+                        fontSize: 11
+                    }
+                },
+                titleTextStyle: {
+                    color: '#8600c4',
+                    fontName: 'Montserrat',
+                    fontSize: 11,
+                    bold: true
+                },
                 'title': `COVID-19 CASES IN <%= country.toUpperCase() %>`,
                 'is3D': true,
                 'chartArea': {
                     left: 20,
                     top: 30,
-                    width: '140%',
-                    height: '140%'
+                    width: '280',
+                    height: '280'
                 },
                 'backgroundColor': '#f7d7a7',
-                'width': 400,
-                'height': 400,
+                'width': 300,
+                'height': 300,
                 'colors': ['#3838d4', 'red', '#3ee654'],
-                'fontSize': 14,
-                'fontName': 'Oswald'
+                'fontSize': 10,
+                'fontName': 'Passion One'
             }
 
             // Instantiate and draw our chart, passing in some options.
